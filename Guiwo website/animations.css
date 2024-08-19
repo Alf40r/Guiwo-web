@@ -1,0 +1,67 @@
+.cube1{
+    animation-name: move1;
+    animation-duration: 2500ms;
+    animation-delay: 0ms;
+    animation-iteration-count: 1;
+    animation-direction: normal;
+    animation-timing-function: ease;
+    animation-fill-mode: forwards;
+
+}
+@keyframes move1{
+    0%{font-size: 30px;
+       background-color: rgba(69, 4, 198, 0.288);}
+    100%{font-size: auto;
+        background-color: rgba(0, 0, 0, 0.288);}
+}
+.cube2{
+    animation-name: move2;
+    animation-duration: 2000ms;
+    animation-delay: 0ms;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    animation-timing-function: ease;
+    animation-fill-mode: forwards;
+
+}
+@keyframes move2{
+    0%{font-size: 25px;
+       background-color: rgba(48, 0, 143, 0.288);}
+    100%{font-size: auto;
+        background-color: rgba(0, 0, 0, 0.288);}
+}
+.img{
+    animation-name: moveimg;
+    animation-duration: 2000ms;
+    animation-delay: 0ms;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    animation-timing-function: ease;
+    animation-fill-mode: forwards;
+
+}
+@keyframes moveimg{
+    0%{font-size: 15px;
+      
+       width: 205px;}
+    100%{font-size: auto;
+       
+        width: 200px;}
+}
+.guiwoicon{
+    animation-name: moveg;
+    animation-duration: 2500ms;
+    animation-delay: 0ms;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    
+    animation-timing-function: ease;
+    animation-fill-mode: forwards;
+
+}
+@keyframes moveg{
+    0%{font-size: 60px;
+       background-color: rgba(24, 0, 73, 0.288);}
+    100%{font-size: auto;
+        background-color: rgba(0, 0, 0, 0.288);}
+}
